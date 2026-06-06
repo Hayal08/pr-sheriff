@@ -149,6 +149,9 @@ Run `pr-sheriff init` or add `.pr-sheriff.json` manually:
 Unknown configuration keys are rejected so typos cannot silently weaken a
 policy.
 
+For a small monorepo example with two packages, shared infrastructure, ignored
+docs, and sensitive paths, see the [monorepo configuration guide](docs/monorepo-configuration.md).
+
 ### Path-specific rules
 
 Different parts of a repository can have stricter review policies. Each matched
