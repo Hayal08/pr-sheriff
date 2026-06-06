@@ -61,15 +61,13 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: Hayal08/pr-sheriff@main
+      - uses: Hayal08/pr-sheriff@v0.2.0
         with:
           base: origin/${{ github.base_ref }}
 ```
 
 The Action adds a report to the GitHub Job Summary, emits annotations for
 sensitive files and policy violations, and fails when policy is violated.
-
-> Pin to a version tag instead of `main` once tagged releases are available.
 
 ### Action inputs
 
