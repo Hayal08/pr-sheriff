@@ -11,6 +11,17 @@ files before review time is spent.
 It has no runtime dependencies, sends no code anywhere, and works in any Git
 repository.
 
+## Live demo
+
+See PR Sheriff working in the
+[demo repository](https://github.com/Hayal08/pr-sheriff-demo):
+
+- [small tested change](https://github.com/Hayal08/pr-sheriff-demo/pull/1);
+- [large feature without tests](https://github.com/Hayal08/pr-sheriff-demo/pull/2);
+- [sensitive database migration](https://github.com/Hayal08/pr-sheriff-demo/pull/3).
+
+![PR Sheriff reporting a sensitive migration path rule](https://raw.githubusercontent.com/Hayal08/pr-sheriff-demo/main/assets/migration-rule-report.png)
+
 ## Why PR Sheriff?
 
 Large or sensitive pull requests consume disproportionate review time. PR
