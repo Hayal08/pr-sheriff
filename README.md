@@ -149,6 +149,19 @@ Run `pr-sheriff init` or add `.pr-sheriff.json` manually:
 Unknown configuration keys are rejected so typos cannot silently weaken a
 policy.
 
+### Policy presets
+
+A ready-to-copy Python repository preset is available at:
+
+`examples/python/.pr-sheriff.json`
+
+The preset includes common Python test patterns and treats files such as
+`pyproject.toml`, `poetry.lock`, and migration directories as sensitive review
+paths.
+
+Customize the preset if your repository uses different test locations,
+dependency files, or migration paths.
+
 ### Path-specific rules
 
 Different parts of a repository can have stricter review policies. Each matched
