@@ -115,6 +115,11 @@ class ConfigTests(unittest.TestCase):
             )
             with self.assertRaisesRegex(ValueError, "unknown keys"):
                 load_config(path)
+    
+    def test_python_preset_loads(self):
+        config = load_config(Path("examples/python/.pr-sheriff.json"))
+        self.assertIsInstance(config, dict)
+        self.assertEqual(config["max_changed_lines"], 800)
 
 
 if __name__ == "__main__":
