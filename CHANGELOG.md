@@ -8,6 +8,7 @@ All notable changes to PR Sheriff are documented here.
 - Add `pr-sheriff install-github` for a one-command GitHub Action setup.
 - Default generated workflows to advisory mode for a gradual rollout.
 - Add a manual trusted-publishing workflow for PyPI.
+- Validate installer paths, custom config wiring, annotations, and package builds.
 
 ## 0.4.0 - 2026-06-06
 
