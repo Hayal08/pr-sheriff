@@ -7,7 +7,7 @@ review. The roadmap is intentionally small and driven by maintainer feedback.
 
 - Add a ready-to-copy policy preset for Rust projects.
 - Improve error messages and configuration validation.
-- Add documentation examples for common repository layouts.
+- Add documentation examples for common repository layouts, including the new [monorepo configuration guide](docs/monorepo-configuration.md).
 - Collect feedback from the first repositories using the Action.
 
 ## Next: better policy checks
